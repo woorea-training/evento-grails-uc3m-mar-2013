@@ -1,0 +1,7 @@
+// Cool Class Diagram
+[Servidor]*-1[Imagen]
+[Servidor]*-1[CaracteristicasHardware]
+[Servidor]1-*[IPPublica]
+[Servidor]1-*[Volumen]
+[Servidor]*->1[Firewall]
+[Firewall]++-*[ReglaFirewall]
